@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.container {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    width: 30%
+}
+
+.image {
+    border: 1px solid black
+}
+/* @keyframes movetext{
+0% {
+    transform:translateX(-50%)
+   }
+   50%{
+    transform:translateX(50%)
+   }
+   100%
+   {
+    transform:translateX(-50%)
+   }
+} */
+
+.para {
+    text-align:center;
+    border: 1px solid grey;
+    padding: 4px;
+    display:inline-block;
+    animation:movetext 4s infinite;
+  
+}
+
+.heading1 {
+    padding-top: 7px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 4px;
+}
+
+.para2 {
+    margin-bottom: 7px;
+}
+
+.heading5 {
+    padding: 10px;
+    margin-bottom: 4px
+}
+
+.selection {
+    border-radius: 10px;
+}
+
+.buttoncontainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.button1 {
+    flex-grow: 1;
+
+}
+
+.button2 {
+    flex-grow: 1;
+
+}
+
+.reset {
+    flex-grow: 1;
+    padding-left: 5px
+}
+
+.winner {
+    color: green
+}
+
+.loser {
+    color: red
+}
